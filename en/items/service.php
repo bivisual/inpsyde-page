@@ -23,7 +23,7 @@
 				<ul>
 					<li><span>Responsive Design</span></li>
 					<li><span>Child Themes</span></li>
-					<li><span>Integration with keyboard and touchoad.</span></li>
+					<li><span>Integration with keyboard and touchpad.</span></li>
 					<li><span>Translation and localization without touching the code.</span></li>
 					<li><span>Interfaces, APIs and Hooks for external usage.</span></li>
 				</ul>
@@ -39,7 +39,7 @@
 				<p>We offer practise oriented educations, seminars and individual courses in house for WordPress beginners, advanced learners and developers. The trainings are build modular and could be booked in single way or are fitted to the knowledge of your employees and goals.</p>
 				
 				<h3>Quality Promise</h3>
-				<p>We are always working with the official APIs of WordPress. Our code is based upon the WordPress standards and we are using an own codex which controlls the quality and security.</p>
+				<p>We are always working with the official APIs of WordPress. Our code is based upon the WordPress standards and we are using our own extended codex which controlls the quality and security.</p>
 				<p>Our themes and plugins are always ready for localization - unless you want to.</p>
 			</section>
 			
