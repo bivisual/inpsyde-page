@@ -4,9 +4,9 @@
  * based on the source of Mischa Szeker (www.szeker.ch)
  * @author    fb
  * @version   09/14/2012
- */
-
-/*
+ * 
+ * 
+ * 
  * Usage:
  * - Put the this file in the root of your website
  * - Path to language versions is www.yourdomain.com/<2-digit language code>
@@ -22,7 +22,8 @@
 $langs         = array( 'en', 'de' );
 $cookie_name   = 'lang_cookie';
 $cookie_domain = '.inpsyde.com';
- 
+$set_cookie    = TRUE; // Set cookie?
+
 if ( ! empty($_GET['lang']) && in_array( $_GET['lang'], $langs ) ) {
 	
 	// Set language
@@ -38,9 +39,9 @@ if ( ! empty($_GET['lang']) && in_array( $_GET['lang'], $langs ) ) {
 	
 		// Get cookie and set language
 		$lang = $_COOKIE[$cookie_name];
- 
+	
 	} else {
- 
+	
 		/* Get browser language */
 		if ( ! empty( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ) {
 			
@@ -49,7 +50,7 @@ if ( ! empty($_GET['lang']) && in_array( $_GET['lang'], $langs ) ) {
 			$lang        = $langs[0];
 			
 			foreach( $langs as $l ) {
-				$x = strpos($browserlang, $l);
+				$x = strpos( $browserlang, $l );
 				if ( $x !== FALSE && $x < $li ) {
 					$li = $x;
 					$lang = $l;
@@ -57,20 +58,16 @@ if ( ! empty($_GET['lang']) && in_array( $_GET['lang'], $langs ) ) {
 			}
 			
 		} else {
+			
 			$lang = $langs[0];
 		}
 		
-		// Set cookie
-		$set_cookie = TRUE;
 	}
 }
  
-// Debug language output
-//echo $lang;
- 
-/* Redirect */
+// Redirect
 header( 'Location: /' . $lang . '/' ) ;
 
-/* Finally set cookie */
+// Finally set cookie
 if ( $set_cookie )
-	setcookie( "$cookie_name", $lang, time() + (60*60*24*365), '/', $cookie_domain );
+	setcookie( $cookie_name, $lang, time() + ( 60 * 60 * 24 * 365), '/', $cookie_domain );
