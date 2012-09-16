@@ -57,6 +57,16 @@
 	Twitter: @ericteubert
 	Location: Leipzig, Germany
 	
+	employee: Thomas Scholz
+	Site: http://toscho.de
+	Twitter: @toscho
+	Location: halle, Germany
+	
+	employee: Daniel Hüsken
+	Site: http://danielhuesken.de/
+	Twitter: danielhuesken
+	Location: Rheine, Germany
+	
 	employee: Michael Schröder
 	Site: ts-webdesign.net, dieweltvonunten.de
 	Twitter:
