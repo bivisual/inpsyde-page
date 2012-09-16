@@ -1,0 +1,56 @@
+/**
+ * header and navigation area
+ * 
+ * @since    05/11/2012
+ * @version  05/14/2012
+ * @author   fb
+ */
+header {
+  float: right;
+  width: 100%;
+}
+
+header nav {
+  max-width: 940px;
+  padding: 0 3em;
+  margin: 0 auto;
+  color: #666;
+  z-index: 999;
+}
+header nav ul {
+  float: left;
+  font-size: 95%;
+  margin-top: 45px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+header nav ul li {
+  white-space: nowrap;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 5px;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: ease-in-out;
+  -moz-transition-delay: ease-in-out;
+  -o-transition-delay: ease-in-out;
+  transition-delay: ease-in-out;
+}
+header nav ul li:hover {
+  background-color: white;
+}
+header nav ul li a {
+  padding: 10px 10px;
+  text-shadow: white 0 1px 0;
+}
+header nav ul li a:link, header nav ul li a:visited {
+  color: #666666;
+}
+header nav ul li a:hover, header nav ul li a:active, header nav ul li a.selected {
+  color: #b8cc32;
+}

@@ -1,0 +1,26 @@
+/**
+ * Contact area
+ * 
+ * @since    05/14/2012
+ * @version  05/14/2012
+ * @author   fb
+ */
+#contact {
+  line-height: 1.4;
+}
+#contact .vcard .given-name, #contact .additional .given-name {
+  font-weight: 700;
+}
+#contact .vcard .tel, #contact .additional .tel {
+  margin: 20px 0 0 0;
+}
+#contact .vcard .tel-note, #contact .additional .tel-note {
+  font-size: 75%;
+  margin: -7px 0 0 2px;
+}
+#contact .additional {
+  margin-top: 30px;
+}
+#contact .additional p {
+  margin-top: 20px;
+}

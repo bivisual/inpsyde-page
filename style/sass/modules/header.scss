@@ -1,0 +1,66 @@
+/**
+ * header and navigation area
+ * 
+ * @since    05/11/2012
+ * @version  05/14/2012
+ * @author   fb
+ */
+
+@import "compass/css3/text-shadow";
+@import "compass/css3/transition";
+
+$inpsyde_color_old: #60780A;
+$inpsyde_color: #b8cc32;
+$inpsyde_alt_color: #666;
+$inpsyde_dark_color: #8dae3e;
+
+header {
+	float: right;
+	width: 100%;
+}
+
+header nav {
+	max-width: 940px;
+	padding: 0 3em;
+	margin: 0 auto;
+	color: #666;
+	z-index: 999;
+	
+	ul {
+		float: left;
+		font-size: 95%;
+		margin-top: 45px;
+		border: 3px solid rgba( 255, 255, 255, .2 );
+		
+		li {
+			white-space: nowrap;
+			float: left;
+			background-color: rgba( 255, 255, 255, .5 );
+			padding: 10px 5px;
+			@include transition-property( background-color );
+			@include transition-duration( 1s );
+			@include transition-delay( ease-in-out );
+			
+			&:hover {
+				background-color: rgba( 255, 255, 255, 1 );
+			}
+			
+			a {
+				padding: 10px 10px;
+				@include text-shadow( #fff 0 1px 0 );
+				
+				&:link, &:visited {
+					color: $inpsyde_alt_color;
+				}
+				
+				&:hover, &:active, &.selected {
+					color: $inpsyde_color;
+				}
+				
+			}
+			
+		}
+	
+	}
+			
+}

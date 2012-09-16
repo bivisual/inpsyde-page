@@ -1,0 +1,76 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+	company: Inpsyde GmbH
+	Site: http://inpsyde.com
+	Twitter: inpsyde_gmbh
+	Location: Germany
+	
+	shareholder: Frank Bueltge
+	Site: http://bueltge.de
+	Twitter: bueltge
+	Location: Stadtroda, Germany
+	
+	shareholder: Heinz Rohe
+	Site: 
+	Twitter: 
+	Location: Bergisch Gladbach, Germany
+	
+	shareholder: Olaf A. Schmitz
+	Site: 
+	Twitter: 
+	Location: Suisse
+	
+	shareholder: Robert Windisch
+	Site: 
+	Twitter: @nullbytes
+	Location: Leipzig, Germany
+	
+	employee: Julian Jöris
+	Site: 
+	Twitter: @jjoeris
+	Location: Leipzig, Germany
+	
+	employee: Thomas Herzog
+	Site: http://dasllama.github.com
+	Twitter: @HerrLlama
+	Location: Leipzig, Germany
+	
+	employee: Andre Peiffer
+	Site: 0x27.net
+	Twitter: @necrotex
+	Location: Köln, Germany
+	
+	employee: Alex Frison
+	Site: http://alexfrison.com
+	Twitter: 
+	Location: Damme, Germany
+	
+	employee: David Naber
+	Site: http://dnaber.de
+	Twitter: @dnaber_de
+	Location: Dresden, Deutschland
+	
+	employee: Eric Teubert
+	Site: http://www.farbeyondprogramming.com
+	Twitter: @ericteubert
+	Location: Leipzig, Germany
+	
+	employee: Michael Schröder
+	Site: ts-webdesign.net, dieweltvonunten.de
+	Twitter:
+	Location: Düsseldorf, Germany
+	
+	employee: Nick Jantschke
+	Site: htt://www.stil-etage.de
+	Twitter: @stiletage
+	Location: Dresden, Germany
+
+/* THANKS */
+	To our great employee
+
+/* SITE */
+	Standards: HTML5, CSS3
+	Components: html5shim, jQuery
+	Software: Apache, PHP, WordPress and much more

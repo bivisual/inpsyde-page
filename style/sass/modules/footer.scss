@@ -1,0 +1,156 @@
+/**
+ * Footer area
+ * 
+ * @since    05/11/2012
+ * @version  05/14/2012
+ * @author   fb
+ */
+
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+@import "compass/css3/transform";
+
+$inpsyde_color: #b8cc32;
+
+#infinitefooter {
+	background: url( '../../images/footerwdh.png' ) center top repeat-x;
+	-webkit-animation: wave 50s infinite linear;
+	-moz-animation: wave 50s infinite linear;
+	-ms-animation: wave 50s infinite linear;
+	-o-animation: wave 50s infinite linear;
+	animation: wave 50s infinite linear;
+}
+
+footer {
+	clear: both;
+	height: 300px;
+	background: url( '../../images/footer.png' ) center top repeat-x;
+	
+	section {
+		
+		&.meta {
+			position: absolute;
+			right: 10em;
+			bottom: 0;
+			background: url( '../../images/wolke.png' ) right bottom no-repeat;
+			width: 470px;
+			height: 175px;
+			font-size: 75%;
+			line-height: 1;
+			
+			p {
+				text-align: right;
+				position: absolute;
+				right: 80px;
+				bottom: 12px;
+			}
+		}
+		
+	}
+	
+}
+
+aside {
+	padding: 70px 0;
+	text-align: center;
+	
+	img {
+		margin: 0 15px 20px 15px;
+	}
+	
+}
+
+#back-to-top {
+	
+	.topscroller {
+		background-color: rgba( 102, 102, 102, .5 );
+		color: #fff;
+		width: 49px;
+		height: 48px;
+		@include border-radius( 50px );
+		@include box-shadow( #333 1px 1px 5px );
+		position: fixed;
+		right: 20px;
+		display: inline-block;
+		overflow: hidden;
+		text-indent: -9999px;
+		font-size: 2.5em;
+		font-weight: 900;
+		@include transition-property( box-shadow );
+		@include transition-duration( 1.5s );
+		@include transition-delay( ease-in-out );
+		
+		&:before {
+			position: absolute;
+			left: 14px; /* Firefox needs to be explicit here */
+			top: 15px;
+			text-indent: 0;
+			content: "^";
+		}
+		
+		&:hover {
+			color: $inpsyde_color;
+			@include box-shadow( $inpsyde_color 0 1px 55px );
+		}
+		
+	}
+
+}
+
+/* Wave animation */
+@-webkit-keyframes wave {
+	0% {
+		background-position: 0 0px;
+	}
+	50% {
+		background-position-y: 15px;
+	}
+	100% {
+		background-position: 100% 0px;
+	}
+}
+@-moz-keyframes wave {
+	0% {
+		background-position: 0 0px;
+	}
+	50% {
+		background-position-y: 15px;
+	}
+	100% {
+		background-position: 100% 0px;
+	}
+}
+@-ms-keyframes wave {
+	0% {
+		background-position: 0 0px;
+	}
+	50% {
+		background-position-y: 15px;
+	}
+	100% {
+		background-position: 100% 0px;
+	}
+}
+@-o-keyframes wave {
+	0% {
+		background-position: 0 0px;
+	}
+	50% {
+		background-position-y: 15px;
+	}
+	100% {
+		background-position: 100% 0px;
+	}
+}
+@keyframes wave {
+	0% {
+		background-position: 0 0px;
+	}
+	50% {
+		background-position-y: 15px;
+	}
+	100% {
+		background-position: 100% 0px;
+	}
+}

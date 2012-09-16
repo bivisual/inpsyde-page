@@ -1,0 +1,62 @@
+/**
+ * Custom style for smaller 768px
+ * 
+ * @since    05/15/2012
+ * @version  05/15/2012
+ * @author   fb
+ */
+@media all and (max-width: 900px) {
+  footer section.meta {
+    right: 0;
+  }
+}
+@media all and (max-width: 600px) {
+  header {
+    height: 100%;
+  }
+  header nav {
+    margin: 0;
+  }
+  header nav ul {
+    margin: 2em auto;
+  }
+  header nav ul li {
+    float: none;
+    padding: 5px 0;
+  }
+  header nav ul li a {
+    padding: 3px 7em 3px 10px;
+  }
+  header nav div {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #infiniteback {
+    height: 700px;
+  }
+
+  #canvas {
+    background: none;
+    margin: 250px 0 0 0;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    -o-animation: none;
+    animation: none;
+  }
+  #canvas #passion {
+    padding: 0;
+    width: auto;
+  }
+
+  section.container {
+    padding: 0 1.5em;
+    font-size: 90%;
+  }
+
+  footer section.meta {
+    right: -66px;
+  }
+}
