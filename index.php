@@ -1,10 +1,11 @@
 <?php
 /**
  * PHP LANGUAGE DETECTION SCRIPT
+ * 
  * based on the source of Mischa Szeker (www.szeker.ch)
+ * @see       http://www.szeker.net/2011/02/10/php-language-detection-script/
  * @author    fb
  * @version   09/14/2012
- * 
  * 
  * 
  * Usage:
