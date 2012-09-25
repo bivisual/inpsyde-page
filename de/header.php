@@ -69,5 +69,6 @@ require_once( 'functions.php'); ?>
 					<li><a href="#projects" title="Projekte sind ein Teil unserer Philosophie">Projekte</a></li>
 				</ul>
 			</nav>
+			<a href="/en" id="language_switch"><img src="/images/lang-en.gif" alt="switch to english" title="switch to english"></a>
 		</header>
 		

@@ -864,3 +864,9 @@ aside img {
     right: -66px;
   }
 }
+
+#language_switch {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
