@@ -32,7 +32,7 @@
 				<h3>Migration</h3>
 				<p>With the moving from another CMS or a static website to WordPress you’d like to keep all the users, avoid 404-erros and forwarding old URLs to the new ones. We adapt your content and support you with the guidance in the new system.</p>
 				
-				<h3>Networks, WordPress Multiste</h3>
+				<h3>Networks, WordPress Multisite</h3>
 				<p>Whether you need one website or thousands. We implement fast and powerful networks - with individual child-themes, low amount of maintenance and in every language of this world.</p>
 				
 				<h3 id="schulung">Education & Training</h3>

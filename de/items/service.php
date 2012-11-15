@@ -32,7 +32,7 @@
 				<h3>Migration</h3>
 				<p>Beim Umzug von einem anderen CMS oder einer statischen Website zu WordPress möchten Sie sicherlich alle Nutzerkonten erhalten, 404-Fehler vermeiden und alte URLs auf neue umlenken. Wir passen Ihre bestehenden Inhalte mit und für WordPress an und unterstützen Sie auch gerne persönlich beim Erlernen des neuen Systems.</p>
 				
-				<h3>Netzwerke</h3>
+				<h3>Netzwerke, WordPress Multisite</h3>
 				<p>Ob Sie eine Website brauchen oder tausende: Wir richten Ihnen schnelle, leistungsstarke Netzwerke ein – mit individuellen Child-Themes, geringem Wartungsaufwand und in allen Sprachen dieser Welt.</p>
 				
 				<h3 id="schulung">Schulung & Training</h3>
