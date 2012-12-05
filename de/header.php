@@ -25,7 +25,7 @@ require_once( 'functions.php'); ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title><?php get_var( $title ); ?></title>
+		<title><?php get_var( $title ); ?> ist Beratung und Umsetzung auf höchstem Niveau - die WordPress Agentur.</title>
 		<meta name="description" content="Die Inpsyde GmbH ist Beratung und Umsetzung auf höchstem Niveau - die WordPress Agentur. Wir schaffen Lösungen im Sinne Ihrer Ziele, ob mit oder ohne WordPress.">
 		<meta name="author" content="Inpsyde GmbH">
 		
@@ -69,6 +69,6 @@ require_once( 'functions.php'); ?>
 					<li><a href="#projects" title="Projekte sind ein Teil unserer Philosophie">Projekte</a></li>
 				</ul>
 			</nav>
-			<a href="/en" id="language_switch"><img src="/images/lang-en.gif" alt="switch to english" title="switch to english"></a>
+			<a href="/en" id="language_switch"><img src="/images/lang-en.gif" alt="switch to english"></a>
 		</header>
 		

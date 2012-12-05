@@ -24,7 +24,7 @@ require_once( 'functions.php'); ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title><?php get_var( $title ); ?></title>
+		<title><?php get_var( $title ); ?> is counseling and Implementation on the highest level - the WordPress agency.</title>
 		<meta name="description" content="Inpsyde is counseling and Implementation on the highest level - the WordPress agency. We create solutions with your goals kept in mind - no matter if with or without WordPress.">
 		<meta name="author" content="Inpsyde GmbH">
 		
