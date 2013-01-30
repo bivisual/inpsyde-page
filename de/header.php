@@ -66,6 +66,7 @@ require_once( 'functions.php'); ?>
 					<li><a href="#services" title="Ein kleiner &Uuml;berblick unsere Leistungen">Leistungen</a></li>
 					<li><a href="#customer" title="Eine kleine Auswahl unserer Kunden">Kunden</a></li>
 					<li><a href="#contact" title="Rufen sie uns an oder schreiben sie">Kontakt</a></li>
+					<li><a href="#jobs" title="Bewerbe dich">Jobs</a></li>
 					<li><a href="#projects" title="Projekte sind ein Teil unserer Philosophie">Projekte</a></li>
 				</ul>
 			</nav>

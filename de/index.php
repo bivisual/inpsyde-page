@@ -12,6 +12,7 @@ require_once( 'items/about.php' );
 require_once( 'items/service.php' );
 require_once( 'items/customer.php' );
 require_once( 'items/contact.php' );
+require_once( 'items/jobs.php' );
 require_once( 'items/projects.php' );
 
 require_once( 'wrap-end.php' );
